@@ -34,19 +34,6 @@ nav ul {
     margin-top: 1rem;
 }
 
-nav ul li a {
-    color: #FFF; /* Branco */
-    text-decoration: none;
-    font-weight: 600;
-    padding: 0.5rem 1rem;
-    transition: background-color 0.3s ease;
-    border-radius: 5px;
-}
-
-nav ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-}
-
 .logo {
     font-family: 'Merriweather', serif;
     font-size: 2.5rem;
@@ -243,6 +230,33 @@ section h2::after {
 {
     animation: slide-in-bottom 2s ease-out
 }
+#AN1 {
+    text-decoration: none;
+    color: #FFF; /* Branco */
+    font-weight: 100;
+    font-size: 1rem;
+    font-family: 'Merriweather', serif;
+}
+
+#AN {
+    background: blur(5px) rgba(255, 255, 255, 0.1); /* Fundo com blur */
+    color: #fff;
+    border: 2px solid #CD6A00; /* Define a border padrão */
+    border-radius: 15px;
+    padding: 5px 15px; /* Diminuindo o padding */
+    font-size: 0.8rem; /* Diminuindo a fonte */
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0, 123, 255, 0.15);
+}
+
+#AN:hover {
+    border: 2px solid #CD6A00; /* Muda a cor da borda ao passar o mouse */
+    box-shadow: 0 8px 24px rgba(0, 123, 255, 0.25), #633300 0px 3px 0px 4px;
+    transform: translateY(-6px);
+    transition:
+        box-shadow 0.3s cubic-bezier(.4,2,.6,1),
+        transform 0.3s cubic-bezier(.4,2,.6,1);
+}
 
 /* Rodapé */
 footer {
@@ -262,20 +276,20 @@ footer p {
     .hero h1 {
         font-size: 2.5rem;
     }
-
+    
     .hero p {
         font-size: 1rem;
     }
-
+    
     section {
         padding: 3rem 1.5rem;
     }
-
+    
     section h2 {
         font-size: 2rem;
         margin-bottom: 2rem;
     }
-
+    
     nav ul {
         flex-direction: column;
         gap: 1rem;
@@ -283,7 +297,7 @@ footer p {
     nav ul li a {
         padding: 0.8rem 1.5rem;
     }
-
+    
     .logo {
         font-size: 2rem;
     }
