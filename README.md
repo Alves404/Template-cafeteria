@@ -25,6 +25,11 @@ Este template é construído com as seguintes tecnologias, garantindo uma base s
 * **CSS3:** Estilização moderna e responsiva, com foco em uma experiência visual agradável em qualquer dispositivo.
 
 ---
+## Visualização 👀
+
+[Veja uma demonstração aqui!](https://template-cafeteria.vercel.app/)
+
+---
 
 ## 🎨 Personalização
 
