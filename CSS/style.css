@@ -251,7 +251,7 @@ section h2::after {
 
 #AN:hover {
     border: 2px solid #CD6A00; /* Muda a cor da borda ao passar o mouse */
-    box-shadow: 0 8px 24px rgba(0, 123, 255, 0.25), #633300 0px 3px 0px 4px;
+    box-shadow: 0 8px 24px rgba(0, 123, 255, 0.25), #8f4a00 0px 3px 0px 4px;
     transform: translateY(-6px);
     transition:
         box-shadow 0.3s cubic-bezier(.4,2,.6,1),
